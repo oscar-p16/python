@@ -55,6 +55,7 @@ print("descuento por caja de ahorro", descuento4);
 totalp= ((((salario-descuento1)-descuento2)-descuento3)-descuento4);
 print ("el total del salario del empleado es", totalp);
 
+print ("//////////////////////////////////////");
 #periodico
 palabra=50;
 centimetro=20;
@@ -65,10 +66,16 @@ ccolor=25000;
 totalperiodico= (palabra * cpalabra)+(centimetro*ccentimetro)+(color* ccolor);
 print ("el total del anuncio es", "$", totalperiodico);
 
+print ("//////////////////////////////////////");
 
+#empresa
+años = int(input("digite años del empleado: "))
+if años>=1 :
+    bonoinicial=100000;
+    bonosegundario= ((años-1)*120000)+bonoinicial;
+    print('el bono final es', bonosegundario);
 
-
-
+print ("//////////////////////////////////////");
 
 
 
