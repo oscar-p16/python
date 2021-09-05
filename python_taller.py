@@ -103,7 +103,15 @@ i=c*16/10;
 totalfoto=c+i;
 print("el total a pagar por el rollo es:", "$", totalfoto);
 
+print ("//////////////////////////////////////");
 
+montopagar=int(input("ingresar monto total de pago:"));
+g=(montopagar*0.4);
+print("el monto que recibe ginecologia es de", "$", g);
+t=(montopagar*0.3);
+print("el monto que recibe traumatologia es de","$", t);
+p=(montopagar*0.3);
+print("el monto que recibe pediatria es de", "$", p);
 
 
 
