@@ -8,7 +8,7 @@ Created on Sat Sep  4 19:33:17 2021
 edad=55;
 numero= (200 - edad)/10;
 print ((numero));
-
+print ("//////////////////////////////////////");
 #masa
 presion=20;
 volumen=10;
@@ -16,7 +16,7 @@ temperatura=3;
 masa= (presion * volumen) / (0.37 * (temperatura + 460));
 
 print (masa);
-
+print ("//////////////////////////////////////");
 #porcentaje
 persona1=10000;
 persona2=20000;
@@ -32,3 +32,10 @@ print ('porcentaje de la segunda persona es', porp2, '%' );
 
 porp3= (persona3/suma)*100;
 print ('porcentaje de la tercera persona es de', porp3, '%');
+
+#banco
+print ("//////////////////////////////////////");
+numeromeses=10;
+saldoinicial=50000;
+totaldinero= (saldoinicial*0.15)*numeromeses;
+print ("el saldo total es",totaldinero);
