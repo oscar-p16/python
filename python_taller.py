@@ -113,6 +113,48 @@ print("el monto que recibe traumatologia es de","$", t);
 p=(montopagar*0.3);
 print("el monto que recibe pediatria es de", "$", p);
 
+print ("//////////////////////////////////////");
+
+dvd= 1500;
+cp=int(input("ingresar la cantidad de peliculas:"));
+cd=int(input("ingresar la cantidad de dias:"));
+ct=(cp*cd)*dvd;
+print("el valor a pagar es de", "$", ct);
+
+print ("//////////////////////////////////////");
+
+d=int(input("ingresar la cantidad de dias:"));
+
+per=int(input("ingresar la cantidad de personas:"));
+
+totalsiniva=(d*per)*25000;
+iva= totalsiniva*0.12;
+totalconiva=totalsiniva+iva;
+print("el total a pagar por el viaje es", "$", totalconiva);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
