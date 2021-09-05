@@ -77,6 +77,16 @@ if años>=1 :
 
 print ("//////////////////////////////////////");
 
+#univercidad
+horas = int(input("numero de horas: "));
+horasp= 20000;
+horast= horas*horasp
+descuento= horast*0.05;
+totalpagar= horast-descuento;
+print('total a pagar','$', totalpagar)
+print ('descuento total', descuento);
+
+
 
 
 
