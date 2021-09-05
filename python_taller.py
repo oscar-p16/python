@@ -141,9 +141,14 @@ if diass>=1 :
     bonosegundarioo= ((diass-1)*200000)+bonoiniciall;
     print('el precio final es',"$", bonosegundarioo);
 
+print ("//////////////////////////////////////");
+import math
 
+yy= ((5+2-5)**2 * 5+8/2 -30 ) 
+y= yy/ 2 * 5 -3;
+print ("el resultado es", y);
 
-
+print ("//////////////////////////////////////");
 
 
 
