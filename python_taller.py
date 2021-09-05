@@ -145,17 +145,22 @@ print ("//////////////////////////////////////");
 import math
 
 yy= ((5+2-5)**2 * 5+8/2 -30 ) 
+print("primer paso", yy)
 y= yy/ 2 * 5 -3;
 print ("el resultado es", y);
 
 print ("//////////////////////////////////////");
+z=5
+n=3
+m= z-n
+u = ( (z+2-n)**2 * m+8/2 -30 )
+print("primer paso",u);
+uu= (u/ 2 ** 5 -3)**5; 
+print("segundo paso", uu);
+uuu= uu+ 15 ** 3 - 9/3 ;
+print("resultado", uuu);
 
-
-
-
-
-
-
+print ("//////////////////////////////////////");
 
 
 
