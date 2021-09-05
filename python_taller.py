@@ -39,3 +39,18 @@ numeromeses=10;
 saldoinicial=50000;
 totaldinero= (saldoinicial*0.15)*numeromeses;
 print ("el saldo total es",totaldinero);
+
+print ("//////////////////////////////////////");
+#empleados
+salario= 1000000;
+descuento1= salario*0.01;
+print ("descuento por ley de politica publica", descuento1);
+descuento2= salario*0.04;
+print("descuento por seguro social", descuento2);
+descuento3= salario*0.005;
+print("descuento por seguro forzoso", descuento3);
+descuento4= salario*0.05;
+print("descuento por caja de ahorro", descuento4);
+
+totalp= ((((salario-descuento1)-descuento2)-descuento3)-descuento4);
+print ("el total del salario del empleado es", totalp);
