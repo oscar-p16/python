@@ -86,8 +86,14 @@ totalpagar= horast-descuento;
 print('total a pagar','$', totalpagar)
 print ('descuento total', descuento);
 
+print ("//////////////////////////////////////");
 
+#comunicaciones
 
+monini=int(input("ingrese monto inicial: "));
+montifin= int(input("ingrese monto final: "));
+costofinal=(monini-montifin)*0.20
+print("costo total es", "$", costofinal);
 
 
 
