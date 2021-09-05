@@ -133,7 +133,13 @@ totalconiva=totalsiniva+iva;
 print("el total a pagar por el viaje es", "$", totalconiva);
 
 
+print ("//////////////////////////////////////");
 
+diass = int(input("digite la cantidad de dias: "))
+if diass>=1 :
+    bonoiniciall=100000;
+    bonosegundarioo= ((diass-1)*200000)+bonoiniciall;
+    print('el precio final es',"$", bonosegundarioo);
 
 
 
