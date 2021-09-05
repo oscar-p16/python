@@ -92,9 +92,16 @@ print ("//////////////////////////////////////");
 
 monini=int(input("ingrese monto inicial: "));
 montifin= int(input("ingrese monto final: "));
-costofinal=(monini-montifin)*0.20
+costofinal=(monini-montifin)/1.20
 print("costo total es", "$", costofinal);
 
+print ("//////////////////////////////////////");
+
+fotos=int(input("ingrese cantidad de fotos: "));
+c=fotos*1500;
+i=c*16/10;
+totalfoto=c+i;
+print("el total a pagar por el rollo es:", "$", totalfoto);
 
 
 
