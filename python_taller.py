@@ -54,3 +54,27 @@ print("descuento por caja de ahorro", descuento4);
 
 totalp= ((((salario-descuento1)-descuento2)-descuento3)-descuento4);
 print ("el total del salario del empleado es", totalp);
+
+#periodico
+palabra=50;
+centimetro=20;
+color=2;
+cpalabra=20000;
+ccentimetro=15000;
+ccolor=25000;
+totalperiodico= (palabra * cpalabra)+(centimetro*ccentimetro)+(color* ccolor);
+print ("el total del anuncio es", "$", totalperiodico);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
